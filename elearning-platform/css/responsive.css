@@ -1,0 +1,467 @@
+/* ============================================
+   RESPONSIVE DESIGN - BREAKPOINTS
+   ============================================ */
+
+/* ============================================
+   TABLET SCREENS (768px and below)
+   ============================================ */
+@media (max-width: 768px) {
+    /* Typography changes for smaller screens */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    /* Navigation Bar - Mobile */
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-auth {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+
+    /* Hero Section - Mobile */
+    .hero {
+        grid-template-columns: 1fr;
+        padding: var(--spacing-md) var(--spacing-md);
+        gap: var(--spacing-md);
+    }
+
+    .hero-content {
+        padding: var(--spacing-md) 0;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        max-height: 300px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    /* About Section - Mobile */
+    .about {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .about-image img {
+        max-width: 100%;
+        max-height: 250px;
+    }
+
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Statistics - Mobile */
+    .statistics .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stat-card {
+        padding: var(--spacing-md);
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    /* Courses Grid - Mobile */
+    .courses-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-card {
+        overflow: hidden;
+    }
+
+    .course-image {
+        height: 150px;
+        max-height: 150px;
+    }
+
+    /* Categories Grid - Mobile */
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Features Grid - Mobile */
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Instructors Grid - Mobile */
+    .instructors-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Testimonials Grid - Mobile */
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Auth Section - Mobile */
+    .auth-container {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-info-panel {
+        display: none;
+    }
+
+    .auth-form-wrapper {
+        padding: var(--spacing-lg);
+    }
+
+    .auth-header h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Contact Section - Mobile */
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    /* Page Header - Mobile */
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    /* Footer - Mobile */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
+    /* CTA Section - Mobile */
+    .cta-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+    }
+}
+
+/* ============================================
+   SMALL PHONES (480px and below)
+   ============================================ */
+@media (max-width: 480px) {
+    /* Root font size adjustment for very small screens */
+    body {
+        font-size: 15px;
+    }
+
+    /* Typography for small phones */
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    /* Navigation - Small Phone */
+    .nav-container {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .logo-icon {
+        font-size: 1.5rem;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+
+    /* Hero Section - Small Phone */
+    .hero {
+        padding: var(--spacing-lg) var(--spacing-md);
+        gap: var(--spacing-md);
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    /* Spacing adjustments */
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-header p {
+        font-size: 0.95rem;
+    }
+
+    /* About Section - Small Phone */
+    .about {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .about-text h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Statistics - Small Phone */
+    .statistics {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .statistics .container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+    }
+
+    /* Course Card - Small Phone */
+    .courses-grid {
+        gap: var(--spacing-md);
+    }
+
+    .course-image {
+        height: 150px;
+    }
+
+    .course-card {
+        border-radius: 8px;
+    }
+
+    /* Categories - Small Phone */
+    .category-icon {
+        font-size: 2rem;
+    }
+
+    .category-card h3 {
+        font-size: 1rem;
+    }
+
+    /* Features - Small Phone */
+    .feature-icon {
+        font-size: 2rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1rem;
+    }
+
+    /* Instructor Card - Small Phone */
+    .instructor-card img {
+        height: 200px;
+    }
+
+    .social-links {
+        gap: var(--spacing-sm);
+    }
+
+    /* Testimonial - Small Phone */
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-author img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Auth Form - Small Phone */
+    .auth-form-wrapper {
+        padding: var(--spacing-md);
+        border-radius: 12px;
+    }
+
+    .auth-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .btn-primary-large {
+        padding: 0.75rem var(--spacing-md);
+        font-size: 1rem;
+    }
+
+    .demo-info {
+        font-size: 0.85rem;
+        padding: var(--spacing-sm);
+    }
+
+    /* Contact Form - Small Phone */
+    .contact-details {
+        gap: var(--spacing-md);
+    }
+
+    .contact-detail h4 {
+        font-size: 1rem;
+    }
+
+    /* Footer - Small Phone */
+    .footer {
+        padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+    }
+
+    .footer-content {
+        gap: var(--spacing-md);
+    }
+
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input,
+    .newsletter-form .btn {
+        width: 100%;
+    }
+
+    /* Page Header - Small Phone */
+    .page-header {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-header p {
+        font-size: 0.95rem;
+    }
+
+    /* CTA Section - Small Phone */
+    .cta-section {
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .cta-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .cta-section p {
+        font-size: 0.95rem;
+    }
+}
+
+/* ============================================
+   LARGE SCREENS (1200px and above)
+   ============================================ */
+@media (min-width: 1200px) {
+    .auth-info-panel {
+        background-color: var(--bg-light);
+        padding: var(--spacing-lg);
+        border-radius: 12px;
+        box-shadow: var(--shadow);
+    }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+    /* Hide navigation and footer when printing */
+    .navbar,
+    .footer,
+    .nav-auth,
+    .hamburger {
+        display: none;
+    }
+
+    /* Adjust body colors for printing */
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    a {
+        color: black;
+    }
+
+    /* Remove shadows and transitions */
+    * {
+        box-shadow: none !important;
+        transition: none !important;
+    }
+}
+
+/* ============================================
+   ACCESSIBILITY IMPROVEMENTS
+   ============================================ */
+
+/* Focus states for keyboard navigation */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
+}
