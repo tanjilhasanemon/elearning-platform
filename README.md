@@ -14,27 +14,6 @@
 
 ---
 
-## 📝 Default Login Credentials
-
-### Student Account
-```
-Email: student@example.com
-Password: password123
-```
-
-### Instructor Account
-```
-Email: instructor@example.com
-Password: password123
-```
-
-### Demo Account
-```
-Email: demo@example.com
-Password: password123
-```
-
----
 
 ## 📄 All Pages
 
@@ -90,17 +69,6 @@ elearning-platform/
 
 ---
 
-## ⚙️ Key Configuration
-
-**Database Connection:** `includes/db_connection.php`
-```php
-$servername = "localhost";
-$db_user = "root";
-$db_password = "";
-$db_name = "elearning_db";
-```
-
----
 
 ## 🔧 Features
 
@@ -161,15 +129,6 @@ $db_name = "elearning_db";
 - **Sample Users:** 3+
 - **Status:** ✅ Production Ready
 
----
 
-## 🔐 Security Notes
 
-- Use `mysqli_real_escape_string()` for SQL injection prevention
-- Implement password hashing (MD5/SHA) in production
-- Validate sessions before database operations
-- Apply client & server-side form validation
-
----
-
-**License:** MIT | **Stack:** PHP 7.4+ | MySQL 5.7+ | Apache | **Updated:** 2026
+**License:** MIT | **Stack:** PHP 7.4+ | MySQL 5.7+ | Apache | **Updated:** March 2026
